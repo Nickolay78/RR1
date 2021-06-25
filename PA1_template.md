@@ -1,8 +1,9 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
-output: 
+title: 'Reproducible Research: Peer Assessment 1'
+output:
   html_document:
-    keep_md: true
+    keep_md: yes
+  pdf_document: default
 ---
 
 
@@ -136,6 +137,7 @@ print (paste("The median without NAs is",median(per_day2$day_steps,na.rm=TRUE)))
 ```
 ## [1] "The median without NAs is 10766.1886792453"
 ```
+
 Let`s visualize the differences.
 
 ```r
